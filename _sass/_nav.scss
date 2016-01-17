@@ -1,0 +1,52 @@
+.nav__menu{
+	list-style-type:none;
+	text-align:center;
+	margin-top:20px;
+}
+.nav__menu li{
+	display:inline;
+	font-weight:700;
+	padding:15px;
+	letter-spacing:-2px;
+}
+.nav__menu li:hover{
+	letter-spacing:2px;
+}
+.nav__menu li:nth-child(1){
+	font-size:42px;
+}
+.nav__menu li:nth-child(2){
+	font-size:36px;
+}
+
+.nav__menu li:nth-child(3){
+	font-size:30px;
+}
+
+.nav__menu li:nth-child(4){
+	font-size:24px;
+}
+
+.nav__menu li:nth-child(5){
+	font-size:18px;
+}
+.nav__menu--{
+	li:nth-child(1) a{
+		color: $text-color;
+	}
+}
+.nav__menu--Work{
+	li:nth-child(2) a{
+		color: $text-color;
+	}
+}
+.nav__menu--Me{
+	li:nth-child(3) a{
+		color: $text-color;
+	}
+}
+.nav__menu--Blog{
+	li:nth-child(4) a{
+		color: $text-color;
+	}
+}

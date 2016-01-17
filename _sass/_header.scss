@@ -1,0 +1,34 @@
+.header__constraint {
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 4em;
+}
+.header__logo {
+    margin: 1em auto 1em auto;
+    max-width: 150px;
+    width: 100%;
+    position: relative;
+    clear: both;
+    display: block;
+}
+header h2 {
+    clear: both;
+    line-height: 1.4em;
+    text-align:center;
+}
+.header__name{
+    font-family: "brandon-grotesque","Roboto","HelveticaNeue", "Helvetica Neue", Helvetica, Arial;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header__petname {
+    font-family: "brandon-grotesque","Roboto","HelveticaNeue", "Helvetica Neue", Helvetica, Arial;
+    font-weight: 700;
+    color: #999;
+    font-size: 0.6em;
+}
+
+header h2 span {
+    display: block;
+}
