@@ -14,8 +14,11 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #414141;
+$text-color-shade1:     #C2561A;
 $background-color: #fcfafc;
 $base-color:      #e83c3c;
+
+$white-color:       #FFF;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -54,7 +57,9 @@ $on-laptop:        800px;
         "syntax-highlighting",
         "header",
         "nav",
-        "work",
+        "me_nav",
+        "cards",
+        "reading",
         "post",
         "footer"
 ;

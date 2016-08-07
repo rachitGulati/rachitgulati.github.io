@@ -1,0 +1,16 @@
+.reading{
+	margin-top:20px;
+	.name{
+		color:$text-color-shade1;
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
+	.author{
+		padding-top: 20px;
+		color:$grey-color;
+	}
+	.book{
+		padding: 20px 0;
+		border-bottom: 1px solid $grey-color-light;
+	}
+}

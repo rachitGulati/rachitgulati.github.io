@@ -1,0 +1,22 @@
+.me_nav__menu{
+	list-style-type:none;
+	text-align:center;
+	margin-top:60px;
+}
+.me_nav__menu li{
+	display:inline;
+	font-weight:700;
+	padding:10px;
+	letter-spacing:-1px;
+	font-size:20px;
+	text-transform: uppercase;
+	background-color: $text-color-shade1;
+	border-radius: 5px;
+}
+.me_nav__menu li:hover{
+	letter-spacing:3px;
+}
+
+.me_nav__menu li:nth-child(1) a{
+	color: $white-color;
+}

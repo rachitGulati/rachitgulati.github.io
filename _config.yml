@@ -10,6 +10,36 @@ github_username:  rachitGulati
 # Build settings
 markdown: kramdown
 
+books:
+- name: "Harry Potter and the Philosopher's Stone"
+  thumb: "harry_potter_1"
+  comments: ""
+  author: 'J.K. Rowling'
+- name: "Harry Potter and the Chamber of Secrets"
+  thumb: "harry_potter_2"
+  comments: ""
+  author: 'J.K. Rowling'
+- name: "Harry Potter and the Prisoner of Azkaban"
+  thumb: "harry_potter_3"
+  comments: ""
+  author: 'J.K. Rowling'
+- name: "Harry Potter and the Goblet of Fire"
+  thumb: "harry_potter_4"
+  comments: ""
+  author: 'J.K. Rowling'
+- name: "Shantaram"
+  thumb: "shantaram"
+  comments: ""
+  author: "Gregory David Roberts"
+- name: "Zero to One: Notes on Start Ups, or How to Build the Future"
+  thumb: "zero_to_one"
+  comments: ""
+  author: "Blake Masters and Peter Thiel"  
+- name: "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future"
+  thumb: "elon_musk"
+  comments: ""
+  author: "Ashlee Vance"
+  
 games:
 - name: "Save My Duck"
   link: "save-my-duck"
