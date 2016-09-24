@@ -42,7 +42,7 @@ books:
   
 games:
 - name: "Save My Duck"
-  link: "save-my-duck"
+  link: "http://rachitgulati.com/SaveMyDuck/"
   category: "Web"
 
 apps:
