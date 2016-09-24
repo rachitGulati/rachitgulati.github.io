@@ -20,13 +20,13 @@ title: Work
 	  	</a>
 	{% endfor %}
 	{% for game in site.games %}
-	  	<a href="/games/{{game.link}}">
+	  	<a href="{{game.link}}">
 		  <div class="card">
 			<div class="ribbon-wrapper">
 				<div class="ribbon">{{game.category}}</div>
 			</div>
 		    <div class="card-image">
-		      <img src="/assets/images/games/{{game.link}}.png" width="200" height="200" alt="">
+		      <img src="/assets/images/games/{{game.icon}}.png" width="200" height="200" alt="">
 		    </div>
 		    <div class="card-header">
 		      	{{game.name}}

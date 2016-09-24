@@ -44,6 +44,7 @@ games:
 - name: "Save My Duck"
   link: "http://rachitgulati.com/SaveMyDuck/"
   category: "Web"
+  icon: 'save-my-duck'
 
 apps:
 - name: "CodeBook"
