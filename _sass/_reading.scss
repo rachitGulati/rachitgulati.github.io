@@ -13,4 +13,26 @@
 		padding: 20px 0;
 		border-bottom: 1px solid $grey-color-light;
 	}
+	.book__content{
+		display: table;
+		width: 100%;
+		table-layout: fixed;
+	}
+	.book__image{
+		display: table-cell;
+		width: 33.33%;
+	}
+	.book__notes{
+		display: table-cell;
+		width: 66.66%;
+		padding: 0em 4em 8em 4em;
+		vertical-align: top;
+		.heading{
+			background: #BBB;
+	    padding: 4px;
+	    color: white;
+	    text-align: center;
+	    font-weight: bold;
+		}
+	}
 }
