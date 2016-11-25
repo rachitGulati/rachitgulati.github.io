@@ -46,6 +46,16 @@ books:
   thumb: "elon_musk"
   author: "Ashlee Vance"
 
+adventures:
+- images: 
+  - src: "https://dl.dropboxusercontent.com/s/a4ak5yfp64hj60d/Screenshot%202016-11-25%2011.07.24.png?dl=0"
+    title: "Day 1"
+  - src: "https://dl.dropboxusercontent.com/s/zskzi9vhcshwo2r/Screenshot%202016-11-25%2011.07.02.png?dl=0"
+    title: "Day 2"
+  - src: "https://dl.dropboxusercontent.com/s/le70ymj1hyew1xe/Screenshot%202016-11-25%2011.07.41.png?dl=0"
+    title: "Day 3"
+  title: "PRACTICE FOR THE 9TH GURGAON RUNNING AND LIVING MARATHON AND A HALF! DEC 11TH 2016"
+  description: "It is a fun to practice before the final show down."
 games:
 - name: "Save My Duck"
   link: "http://rachitgulati.com/SaveMyDuck/"

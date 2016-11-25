@@ -1,0 +1,31 @@
+---
+layout: default
+name: Reading
+title: Reading
+colors: ['red','blue']
+---
+<h1>Adventures in SMALL LIFE 😊 🙃 😈 🤘</h1>
+<div class="adventures">
+  {% for adventure in site.adventures %}
+  <div class="adventure">
+    <div class="adventure__title">
+      {{ adventure.title }}
+    </div>
+    {% if adventure.images %}
+    <div class="adventure__gallery">
+      {% for image in adventure.images %}
+      <div>
+        <img src="{{image.src}}" />
+        {% if image.title %}
+        <p> {{ image.title}} </p>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div> 
+    {% endif %}
+    <div class="adventure__description">
+      {{ adventure.description }}
+    </div> 
+  </div>
+  {% endfor %}
+</div>
