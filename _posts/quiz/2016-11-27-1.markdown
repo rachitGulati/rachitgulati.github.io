@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Quiz Set1"
+date:   2016-11-27 05:45:59
+slug: ques1
+category: flash_cards
+permalink: /quiz/:year/:month/:title/
+---
+# How many address modes present for microprocessor ? 
+
+* **Direct Addressing Mode:-** Data is directly copied from the given address to the register.
+ex: LDA 3000H (The content at the location 3000H is copied to the register A).
+
+* **Indirect Addressing Mode:-** The data is transferred from the address pointed by the data in a register to other register.
+ex: - MOV A, M (data is transferred from the memory location pointed by the regiser to the accumulator).
+
+* **Immediate Addressing:-** An immediate is transferred directly to the register.
+ex: MVI A, 30H (30H is copied into the register A)
+
+* **Implicit/Implied Addressing:-** This mode doesn't require any operand. The data is specified by opcode itself.
+ex: INC A
+
+* **Register Addressing Mode:-** Data is copied from one register to another register.
+ex: MOV B, A 
+

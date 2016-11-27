@@ -1,0 +1,26 @@
+---
+layout: default
+name: Flash Cards
+title: Flash Cards
+---
+
+{% for quiz in site.quiz %}
+<div class="flip-card"  id="flip-card">
+<div class="flip-front">
+  <p>{{quiz.question}}</p>
+</div>
+<div class="flip-back">
+  <p>
+    {{ quiz.answer }}
+    <br>
+    <a href="{{ quiz.link }}"> More Detail</a>
+  </p>
+  
+</div>
+</div>
+{% endfor %}
+<script>
+  document.querySelector('#flip-card').addEventListener('click', function(){
+    this.classList.toggle('flipped');
+  });
+</script>
