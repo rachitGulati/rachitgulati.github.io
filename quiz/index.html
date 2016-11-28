@@ -5,22 +5,26 @@ title: Flash Cards
 ---
 
 {% for quiz in site.quiz %}
-<div class="flip-card"  id="flip-card">
-<div class="flip-front">
-  <p>{{quiz.question}}</p>
-</div>
-<div class="flip-back">
-  <p>
-    {{ quiz.answer }}
-    <br>
-    <a href="{{ quiz.link }}"> More Detail</a>
-  </p>
-  
-</div>
+<div class="flip-card">
+  <div class="flip-front">
+    <p>{{quiz.question}}</p>
+  </div>
+  <div class="flip-back">
+    <p>
+      {{ quiz.answer }}
+      <br>
+      <a href="{{ quiz.link }}"> More Detail</a>
+    </p>
+  </div>
 </div>
 {% endfor %}
 <script>
-  document.querySelector('#flip-card').addEventListener('click', function(){
-    this.classList.toggle('flipped');
-  });
+  window.addEventListener('load', function(){
+    var flip_cards = document.querySelectorAll('.flip-card');
+    for (var i = 0; i < flip_cards.length; i++) {
+      flip_cards[i].addEventListener('click', function(){
+        this.classList.toggle('flipped');
+      });
+    }
+  }, false )
 </script>

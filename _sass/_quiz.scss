@@ -22,7 +22,8 @@
   width: 100%;
   position: absolute;    
   text-align: center;   
-  -webkit-backface-visibility: hidden;       
+  -webkit-backface-visibility: hidden; 
+  padding: 0px 20px;      
 }
 
 .flip-back p, .flip-front p{      

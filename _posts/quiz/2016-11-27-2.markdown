@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Quiz Set1 (Question2)"
+date:   2016-11-27 05:45:59
+slug: ques2
+category: flash_cards
+permalink: /quiz/:year/:month/:title/
+---
+
+![alt text](https://i.stack.imgur.com/WcBRI.png "Logo Title Text 1")
+
+[Do read this link](http://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation) for more detailed explanation.
+
+
+

@@ -83,3 +83,8 @@ quiz:
   link: "/quiz/2016/11/ques1/"
   question: "How many address modes present for microprocessor ?"
   answer: "There are five only."
+- category: "theory"
+  set: "one"
+  link: "/quiz/2016/11/ques2/"
+  question: "Arrange complexity in asc order of time: O(n), O(n^2), O(n!), O(logn), O(nlogn), O(2^n), O(1);"
+  answer: "O(1) < O(logn) < O(n) < O(nlogn) < O(n^2) < O(2^n) < O(n!)"
