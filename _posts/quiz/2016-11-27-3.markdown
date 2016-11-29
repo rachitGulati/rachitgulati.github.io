@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Quiz Set1 (Question3)"
+date:   2016-11-27 05:45:59
+slug: ques3
+category: flash_cards
+permalink: /quiz/:year/:month/:title/
+---
+  question: "Arrange complexity in asc order of time: O(log(n)), O(log(n!)), O(n^2), O(n) ?"
+
+*log (n!) = Log (n)*(n-1)*(n-2)*...(1)
+*logn! = Log(n) + Log(n-1) + Log(n-2) + Log(1)
+*logn! = nLog(n)
+
+Therefore:
+
+O(log(n)) < O(n) < O(nlog(n)) < O(n^2)

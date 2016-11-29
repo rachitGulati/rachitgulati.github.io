@@ -88,3 +88,8 @@ quiz:
   link: "/quiz/2016/11/ques2/"
   question: "Arrange complexity in asc order of time: O(n), O(n^2), O(n!), O(logn), O(nlogn), O(2^n), O(1);"
   answer: "O(1) < O(logn) < O(n) < O(nlogn) < O(n^2) < O(2^n) < O(n!)"
+- category: "theory"
+  set: "one"
+  link: "/quiz/2016/11/ques3/"
+  question: "Arrange complexity in asc order of time: O(log(n)), O(log(n!)), O(n^2), O(n)"
+  answer: "O(log(n)) < O(n) < O(nlog(n)) < O(n^2)"
