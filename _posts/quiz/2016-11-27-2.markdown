@@ -8,7 +8,7 @@ permalink: /quiz/:year/:month/:title/
 ---
 # Arrange complexity in asc order of time: O(n), O(n^2), O(n!), O(logn), O(nlogn), O(2^n), O(1) ? 
 
-![alt text](https://i.stack.imgur.com/WcBRI.png "Logo Title Text 1")
+![alt text](https://i.stack.imgur.com/WcBRI.png "Big O Complexity")
 
 [Do read this link](http://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation) for more detailed explanation.
 
