@@ -11,6 +11,11 @@ github_username:  rachitGulati
 markdown: kramdown
 
 books:
+
+- name: "Harry Potter and the Half-Blood Prince"
+  thumb: "harry_potter_6"
+  author: "J.K. Rowling"
+  completed_date: "Jan, 2017"
 - name: "Harry Potter and the Order of the Phoenix"
   thumb: "harry_potter_5"
   author: "J.K. Rowling"
