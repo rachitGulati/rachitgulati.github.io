@@ -12,6 +12,10 @@ markdown: kramdown
 
 books:
 
+- name: "Talent Is Overrated"
+  thumb: "talent_is_overrated"
+  author: "Geoffrey Colvin"
+  completed_date: "Feb, 2017"
 - name: "Harry Potter and the Half-Blood Prince"
   thumb: "harry_potter_6"
   author: "J.K. Rowling"
@@ -71,6 +75,7 @@ adventures:
     title: "Day 8 - Day 15 (Sleeping and Enjoying) 🤘"
   title: "PRACTICE FOR THE 9TH GURGAON RUNNING AND LIVING MARATHON AND A HALF! DEC 11TH 2016 (21KM)"
   description: "Finally 21KM in 2:33 minutes 😊 Yippi 🙃"
+
 games:
 - name: "Save My Duck"
   link: "http://rachitgulati.com/SaveMyDuck/"
@@ -82,6 +87,10 @@ apps:
   thumb: "codebook"
   link: "https://play.google.com/store/apps/details?id=com.codebook"
   category: "Android"
+- name: "Sum It Up"
+  thumb: "sumitup"
+  link: "http://rachitgulati.com/sum-it-up/"
+  category: "Chrome"
 #- name: "Chat Panel"
 #  thumb: "chat-panel"
 #  link: "http://chat-squiroid.rhcloud.com/"
