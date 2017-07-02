@@ -12,6 +12,11 @@ markdown: kramdown
 
 books:
 
+
+- name: "Harry Potter and the Deathly Hallows"
+  thumb: "harry_potter_7"
+  author: "J.K. Rowling"
+  completed_date: "May, 2017"
 - name: "Talent Is Overrated"
   thumb: "talent_is_overrated"
   author: "Geoffrey Colvin"
