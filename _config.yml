@@ -12,7 +12,14 @@ markdown: kramdown
 
 books:
 
-
+- name: "The Alchemist"
+  thumb: "the_alchemist"
+  author: "Paulo Coelho"
+  completed_date: "July, 2017"
+- name: "The Pragmatic Programmer"
+  thumb: "the_pragmatic_programmer"
+  author: "Andrew Hunt & David Thomas"
+  completed_date: "July, 2017"
 - name: "Harry Potter and the Deathly Hallows"
   thumb: "harry_potter_7"
   author: "J.K. Rowling"
