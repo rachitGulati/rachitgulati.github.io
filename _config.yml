@@ -90,7 +90,7 @@ adventures:
 
 games:
 - name: "Save My Duck"
-  link: "http://rachitgulati.com/SaveMyDuck/"
+  link: "http://rachitgulati.github.io/SaveMyDuck/"
   category: "Web"
   icon: "save-my-duck"
 
@@ -101,7 +101,7 @@ apps:
   category: "Android"
 - name: "Sum It Up"
   thumb: "sumitup"
-  link: "http://rachitgulati.com/sum-it-up/"
+  link: "http://rachitgulati.github.io/sum-it-up/"
   category: "Chrome"
 #- name: "Chat Panel"
 #  thumb: "chat-panel"
