@@ -1,32 +1,37 @@
---- layout: default name: work title: Work ---
+---
+layout: default
+name: work
+title: Work
+---
 <div class="cards">
 	{% for app in site.apps %}
-	<a href="{{app.link}}">
-		<div class="card">
+	  	<a href="{{app.link}}">
+		  <div class="card">
 			<div class="ribbon-wrapper">
 				<div class="ribbon">{{app.category}}</div>
 			</div>
-			<div class="card-image">
-				<img src="/assets/images/apps/{{app.thumb}}.png" alt="">
-			</div>
-			<div class="card-header">
-				<span>{{app.name}}</span>
-			</div>
-		</div>
-	</a>
-	{% endfor %} {% for game in site.games %}
-	<a href="{{game.link}}">
-		<div class="card">
+		    <div class="card-image">
+		      <img src="/assets/images/apps/{{app.thumb}}.png" alt="">
+		    </div>
+		    <div class="card-header">
+		      	<span>{{app.name}}</span>
+		    </div>
+		  </div>
+	  	</a>
+	{% endfor %}
+	{% for game in site.games %}
+	  	<a href="{{game.link}}">
+		  <div class="card">
 			<div class="ribbon-wrapper">
 				<div class="ribbon">{{game.category}}</div>
 			</div>
-			<div class="card-image">
-				<img src="/assets/images/games/{{game.icon}}.png" alt="">
-			</div>
-			<div class="card-header">
-				{{game.name}}
-			</div>
-		</div>
-	</a>
+		    <div class="card-image">
+		      <img src="/assets/images/games/{{game.icon}}.png" alt="">
+		    </div>
+		    <div class="card-header">
+		      	{{game.name}}
+		    </div>
+		  </div>
+	  	</a>
 	{% endfor %}
 </div>
