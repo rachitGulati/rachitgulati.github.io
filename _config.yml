@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.rachitgulati.com" # the base hostname & protocol for your site
 twitter_username: squiroid
 github_username:  rachitGulati
-
+include: ['_redirect']
 # Build settings
 markdown: kramdown
 
