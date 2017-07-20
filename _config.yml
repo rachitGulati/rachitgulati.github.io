@@ -3,7 +3,7 @@ title: Rachit gulati
 email: rachitgulati26@gmail.com
 permalink: /blog/:year/:month/:title/
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://rachitgulati.com" # the base hostname & protocol for your site
+url: "https://www.rachitgulati.com" # the base hostname & protocol for your site
 twitter_username: squiroid
 github_username:  rachitGulati
 
