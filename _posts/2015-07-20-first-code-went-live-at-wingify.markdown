@@ -3,7 +3,6 @@ layout: post
 title:  "First code went live at wingify"
 date:   2015-07-20 07:58:07
 slug: first-code-went-live-at-wingify
-category: published
 permalink: /blog/:year/:month/:title/
 ---
 Yippee :)

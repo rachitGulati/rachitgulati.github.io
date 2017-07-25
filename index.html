@@ -6,16 +6,18 @@ layout: default
   <h1 class="page-heading">Latest Posts</h1>
 
   <ul class="post-list">
-     {% for post in site.posts%}
-      {% if post.category contains 'published' %}
+     {% for post in site.posts  offset: 0 limit: 2%}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
+          {% if post.category contains 'medium' %}
+          <a class="post-link" href="{{ post.baseurl }}">{{ post.title }}</a>
+          {% else if %}
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          {% endif %}
         </h2>
       </li>
-      {% endif %}
     {% endfor %}
   </ul>
 
