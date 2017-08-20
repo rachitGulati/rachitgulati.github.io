@@ -95,18 +95,18 @@ games:
   icon: "save-my-duck"
 
 apps:
-- name: "CodeBook"
-  thumb: "codebook"
-  link: "https://play.google.com/store/apps/details?id=com.codebook"
-  category: "Android"
-- name: "Sum It Up"
-  thumb: "sumitup"
-  link: "http://rachitgulati.github.io/sum-it-up/"
-  category: "Chrome"
 - name: "JSconsole"
   thumb: "jsconsole"
   category: "Chrome"
   link: "https://jsconsole.github.io/"
+- name: "Sum It Up"
+  thumb: "sumitup"
+  link: "http://rachitgulati.github.io/sum-it-up/"
+  category: "Chrome"
+- name: "CodeBook"
+  thumb: "codebook"
+  link: "https://play.google.com/store/apps/details?id=com.codebook"
+  category: "Android"
 
 quiz:
 - category: "theory"
