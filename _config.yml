@@ -103,9 +103,10 @@ apps:
   thumb: "sumitup"
   link: "http://rachitgulati.github.io/sum-it-up/"
   category: "Chrome"
-#- name: "Chat Panel"
-#  thumb: "chat-panel"
-#  link: "http://chat-squiroid.rhcloud.com/"
+- name: "JSconsole"
+  thumb: "jsconsole"
+  category: "Chrome"
+  link: "https://jsconsole.github.io/"
 
 quiz:
 - category: "theory"
