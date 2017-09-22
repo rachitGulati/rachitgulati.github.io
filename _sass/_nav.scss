@@ -1,4 +1,50 @@
-
+@mixin nav_animator($seconds){
+	animation:nav__menu--show 0.4s ease forwards 0.5s;
+	animation-delay: $seconds;
+}
+@mixin nav_decorator($color){
+	position: relative;
+	&:before, &:after{
+		content: '';
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		border-color: $color;
+		border-style: solid;
+		border-width: 0;
+		@include transition(all .5s cubic-bezier(1,.2,.26,.7));
+		@include transform(translate(0px, 0px) scale(.8));
+		opacity: 0;
+	}
+	&:before{
+		left: 0;
+		bottom: 0;
+		border-bottom-width: 1px;
+		border-left-width: 1px;
+	}
+	&:after{
+		top: 0;
+		right: 0;
+		border-top-width: 1px;
+		border-right-width: 1px;
+	}
+	&:hover{
+		&:before, &:after{
+			@include transition(all 2s cubic-bezier(.14,1.13,0,.91));
+			opacity: 1;
+		}
+		&:before{
+			@include transform(translate(-25px, 20px) scale(1));
+			border-bottom-width: 8px;
+			border-left-width: 8px;
+		}
+		&:after{
+			@include transform(translate(25px, -20px) scale(1));
+			border-top-width: 8px;
+			border-right-width: 8px;
+		}
+	}	
+}
 .nav__menu{
 	list-style-type:none;
 	text-align:center;
@@ -9,45 +55,54 @@
 	font-weight:700;
 	padding:15px;
 	letter-spacing:-2px;
-}
-.nav__menu li:hover{
-	letter-spacing:2px;
-}
-.nav__menu li:nth-child(1){
 	font-size:42px;
+	opacity: 0;
+}
+// .nav__menu li:hover{
+// 	letter-spacing:2px;
+// }
+.nav__menu li:nth-child(1){
+	@include nav_animator(0s);
+	a{
+		@include nav_decorator($background-color);
+	}
 }
 .nav__menu li:nth-child(2){
-	font-size:36px;
+	@include nav_animator(0.2s);
+	a{
+		@include nav_decorator(#674CAB);
+	}
 }
 
 .nav__menu li:nth-child(3){
-	font-size:30px;
+	@include nav_animator(0.5s);
+	a{
+		@include nav_decorator(#A4CB3F);
+	}
 }
 
 .nav__menu li:nth-child(4){
-	font-size:24px;
+	@include nav_animator(0.7s);
+	a{
+		@include nav_decorator(#5383B3);
+	}
 }
 
 .nav__menu li:nth-child(5){
-	font-size:18px;
-}
-.nav__menu--{
-	li:nth-child(1) a{
-		color: $text-color;
+	@include nav_animator(0.9s);
+	a{
+		@include nav_decorator(#613d12);
 	}
 }
-.nav__menu--Work{
-	li:nth-child(2) a{
-		color: $text-color;
-	}
-}
-.nav__menu--Me{
-	li:nth-child(3) a{
-		color: $text-color;
-	}
-}
-.nav__menu--Blog{
-	li:nth-child(4) a{
-		color: $text-color;
-	}
+
+@keyframes nav__menu--show {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

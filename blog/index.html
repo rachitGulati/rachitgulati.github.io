@@ -5,6 +5,7 @@ title: Blog
 ---
 {% for post in site.posts %}
 <article class="list-item">
+	<p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
 	<p class="post-title">
 		{% if post.category contains 'medium' %}
 		<a class="post-link" href="{{ post.baseurl }}">{{ post.title }}</a>
@@ -12,6 +13,5 @@ title: Blog
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         {% endif %}
 	</p>
-	<div class="post-meta">{{ post.date | date: "%B %d, %Y" }}</div>
 </article>
 {% endfor %}

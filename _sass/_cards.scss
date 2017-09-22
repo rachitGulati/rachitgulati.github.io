@@ -3,16 +3,14 @@
   @include flex-wrap(wrap);
   @include justify-content(center);
 }
-
+$base-background-color: $color-shade1;
 .card {
-  $base-border-color: gainsboro !default;
   $base-border-radius: 3px !default;
-  $base-background-color: white !default;
   $base-spacing: 1.5em !default;
   $action-color: #477DCA !default;
   $dark-gray: #333 !default;
   $base-font-color: $dark-gray !default;
-  $card-border-color: $base-border-color;
+  $card-border-color: $base-background-color;
   $card-border: 1px solid $card-border-color;
   $card-background: lighten($card-border-color, 10%);
   $card-header-background: $card-background;
@@ -24,7 +22,6 @@
   background-color: $card-background;
   border-radius: $base-border-radius;
   border: $card-border;
-  box-shadow: 0 2px 4px darken($base-background-color, 10%);
   cursor: pointer;
   margin: 0 $card-margin $base-spacing $card-margin;
   position: relative;
@@ -77,7 +74,7 @@
   }
 }
 .ribbon-wrapper {
-  $ribbon-background: $base-color;
+  $ribbon-background: $base-background-color;
   $ribbon-size: 85px;
 
   @include size($ribbon-size);
