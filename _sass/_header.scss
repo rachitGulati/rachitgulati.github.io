@@ -1,5 +1,8 @@
 @mixin a($width, $height: 55px){
-	width: $width;
+    width: $width;
+    @include media($mobile) {
+        width: initial;   
+    }
 	height: $height;
     line-height: $height;
     position: relative;
@@ -21,7 +24,7 @@
     max-width: 1400px;
     margin: 0 auto;
     overflow: hidden;
-    padding: 0 4em;
+    padding: 0 10px;
     padding-top: 100px; 
 
 }
@@ -50,6 +53,9 @@ header h2 {
     @include a($w,$h);
     &:before{
         content: url('/assets/images/me_1.png');
+        @include media($mobile) {
+            display: none;
+        }
         color: #465154;
         transition:all .5s ease-in;
         @include grab;
