@@ -29,7 +29,6 @@ $base-background-color: $color-shade1;
     overflow: hidden;
     height: 200px;
     max-height: 200px;
-    background-color: $card-image-hover-color;
 
     img {
       @include transition (all 0.2s ease-in-out);
