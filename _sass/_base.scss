@@ -119,9 +119,6 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
-    margin-left: $spacing-unit;
-}
 
 li {
     > ul,
@@ -155,6 +152,7 @@ a {
     }
 
     &:hover {
+        @include transition(all 2s cubic-bezier(.14,1.13,0,.91));
         color: $background-color;
         border-bottom: 5px solid $base-color;
     }
