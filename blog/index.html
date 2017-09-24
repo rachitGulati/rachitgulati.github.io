@@ -7,11 +7,7 @@ title: Blog
 <article class="list-item">
 	<p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
 	<p class="post-title">
-		{% if post.category contains 'medium' %}
 		<a class="post-link" href="{{ post.baseurl }}">{{ post.title }}</a>
-        {% else if %}
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        {% endif %}
 	</p>
 </article>
 {% endfor %}
