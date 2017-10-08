@@ -11,6 +11,7 @@ dl, dd, ol, ul, figure {
 
 html{
     height:100%;
+    cursor: url('/assets/arrow-pointer.png'), default !important;
 }
 /**
  * Basic styling
@@ -39,7 +40,7 @@ body {
     }
 }
 
-.post-list, .post-title, .cards{
+.post-list, .post-title, .cards, .nav__menu{
 	a{
 		border: 0px !important;
 	}
@@ -73,7 +74,7 @@ video {
     background: url('/assets/images/rachit.jpg') no-repeat;
     background-size: cover;
     transition: 1s opacity;
-    opacity: 0.7;
+    opacity: 0.9;
     @include media($mobile) {
         display: none;
     }
