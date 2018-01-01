@@ -11,7 +11,10 @@ include: ['_redirect']
 markdown: kramdown
 
 books:
-
+- name: "Getting Things Done: The Art of Stress-free Productivity"
+  thumb: "gtd"
+  author: "David Allen"
+  completed_date: "Dec, 2017"
 - name: "The Alchemist"
   thumb: "the_alchemist"
   author: "Paulo Coelho"
