@@ -11,6 +11,10 @@ include: ['_redirect']
 markdown: kramdown
 
 books:
+- name: "The Art of Thinking Clearly"
+  thumb: "artofthik"
+  author: "Rolf Dobelli"
+  completed_date: "Jan, 2018"
 - name: "Getting Things Done: The Art of Stress-free Productivity"
   thumb: "gtd"
   author: "David Allen"
