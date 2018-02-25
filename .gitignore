@@ -3,7 +3,7 @@ _site
 .DS_Store
 .bundle
 Gemfile.lock
-old
+/old
 # dependencies
 /node_modules
 
