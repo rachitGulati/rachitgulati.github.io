@@ -1,9 +1,9 @@
-import React from 'react'
-import { Router, Link } from 'react-static'
-import styled, { injectGlobal } from 'styled-components'
-import { hot } from 'react-hot-loader'
+import React from "react";
+import { Router, Link } from "react-static";
+import styled, { injectGlobal } from "styled-components";
+import { hot } from "react-hot-loader";
 //
-import Routes from 'react-static-routes'
+import Routes from "react-static-routes";
 
 injectGlobal`
   body {
@@ -14,7 +14,7 @@ injectGlobal`
     margin: 0;
     padding: 0;
   }
-`
+`;
 
 const AppStyles = styled.div`
   a {
@@ -41,7 +41,7 @@ const AppStyles = styled.div`
   img {
     max-width: 100%;
   }
-`
+`;
 
 const App = () => (
   <Router>
@@ -56,6 +56,6 @@ const App = () => (
       </div>
     </AppStyles>
   </Router>
-)
+);
 
-export default hot(module)(App)
+export default hot(module)(App);
